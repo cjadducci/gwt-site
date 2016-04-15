@@ -20,7 +20,7 @@ The implementation of a GWT RPC service is based on the well-known Java servlet 
 Within the client code, you'll use an automatically-generated proxy class to make calls to the service.
 GWT will handle serialization of the Java objects passing back and forth&mdash;the arguments in the method calls and the return value.
 
-**Important:** GWT RPC services are not the same as web services based on SOAP or [REST](http://java.sun.com/developer/technicalArticles/WebServices/restful/). They are simply as a lightweight method for transferring data between your server and the GWT application on the client. To compare single and multi-tier deployment options for integrating GWT RPC services into your application, see the Developer's Guide, [Architectural Perspectives](../DevGuideServerCommunication.html#DevGuideArchitecturalPerspectives).
+**Important:** GWT RPC services are not the same as web services based on SOAP or [REST](http://java.sun.com/developer/technicalArticles/WebServices/restful/). They are simply used as a lightweight method for transferring data between your server and the GWT application on the client. To compare single and multi-tier deployment options for integrating GWT RPC services into your application, see the Developer's Guide, [Architectural Perspectives](../DevGuideServerCommunication.html#DevGuideArchitecturalPerspectives).
 
 ## Java components of the GWT RPC Mechanism
 
